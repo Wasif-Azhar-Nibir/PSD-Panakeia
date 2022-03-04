@@ -1,0 +1,560 @@
+/*
+	author: Wasif Azhar Nibir;
+	mail: wasif9673@gmail.com;
+*/
+
+/*
+
+	===index===
+
+	1.Header
+	2.Fusce at
+	3.Facilisis
+	4.Ante donec
+	5.Blandit rhoncus
+	6.Placerat
+	7.Footer
+*/
+/* Theme CSS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700&display=swap');
+
+/* Global CSS */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Roboto Slab', serif;
+}
+
+/* Header Section */
+.nav-head{
+	background-color: #edeff1;
+}
+a.nav-link.js-scroll-trigger{
+	color: #31353e;
+	font-weight: 700;
+	margin: 0px 5px;
+}
+a.nav-link.js-scroll-trigger.active{
+	background-color: #dd4b2b;
+	padding: 6px 32px;
+	color: #fff;
+	border-radius: 30px;
+	font-weight: 700;
+	margin: 0px 5px;
+}
+.fa.fa-cutlery{
+	color: black;
+}
+/* Hero Section */
+.hero{
+	background: url(../img/banner.jpg)no-repeat;
+	background-size: cover;
+	height: 900px;
+}
+.hero-content h1{
+	color: white;
+	text-align: center;
+	margin-top: 200px;
+}
+img.img-fluid {
+    margin-left: 105px;
+    margin-top: 45px;
+}
+.hero-content h4{
+	color: white;
+	text-align: center;
+}
+.subsandwich h3{
+	color: white;
+	text-align: center;
+}
+.subsandwich p{
+	color: white;
+	text-align: center;
+}
+.cupcake h3{
+	color: white;
+	text-align: center;
+}
+.cupcake p{
+	color: white;
+	text-align: center;
+}
+.burger h3{
+	color: white;
+	text-align: center;
+}
+.burger p{
+	color: white;
+	text-align: center;
+}
+.hero-btn{
+	background-color: white;
+	color: maroon;
+	margin-top: 45px;
+	margin-left: 478px;
+	padding: 5px 35px;
+	cursor: pointer;
+	border-radius: 20px;
+    border: none;
+}
+.hero-btn:hover{
+	background-color:#303539;
+	color: white;
+	transition: 0.4s ease-in-out;
+	}
+
+/* Facilisis Section */
+.Facilisis{
+	background-color: #EEEFF1;
+	height: 850px;
+}
+.Facilisis-content h2{
+	color: #303539;
+	text-align: center;
+	margin: 30px 0px;
+}
+.burger3 img{
+	max-width: 100%;
+	height: auto;
+    margin-left: 0px;
+    margin-top: 45px;
+}
+.burger3 h3{
+	color: #303539;
+	text-align: center;
+	margin-top: 15px;
+}
+.burger3 p{
+	color: #303539;
+	text-align: center;
+}
+.cupcake2 img{
+	max-width: 100%;
+	height: auto;
+    margin-left: 0px;
+    margin-top: 45px;
+}
+.cupcake2 h3{
+	color: #303539;
+	text-align: center;
+	margin-top: 15px;
+}
+.cupcake2 p{
+	color: #303539;
+	text-align: center;
+}
+.burger2 img{
+	max-width: 100%;
+	height: auto;
+    margin-left: 0px;
+    margin-top: 45px;
+}
+.burger2 h3{
+	color: #303539;
+	text-align: center;
+	margin-top: 15px;
+}
+.burger2 p{
+	color: #303539;
+	text-align: center;
+}
+.news-btn{
+	background-color: white;
+	color: black;
+	margin-top: 15px;
+	margin-left: 120px;
+    padding: 8px 25px;
+	border: none;
+	border-radius: 20px;
+}
+.news-btn:hover{
+	background-color:#303539;
+	color: white;
+	transition: 0.4s ease-in-out;
+}
+
+/* Ante Section */
+.ante{
+	background: url(../img/banner2.jpg)no-repeat;
+	background-size: cover;
+	height: 400px;
+}
+.ante h2{
+	color: white;
+	text-align: center;
+	margin-top: -95px;
+}
+.ante p{
+	color: white;
+	text-align: center;	
+	margin-top: -54px;
+}
+.form-control{
+	margin-top: 15px !important;
+    margin-left: 210px !important;
+    border-radius: 20px !important;
+    padding: 18px 30px !important;
+    border: 2px solid white !important;
+    background-color: #adb5bd78 !important;
+}
+.newsletter ::-webkit-input-placeholder{
+  color: white !important;
+}
+.newsletter ::-moz-placeholder {
+  color: white !important;
+}
+.newsletter :-ms-input-placeholder {
+  color: white !important;
+}
+.newsletter :-moz-placeholder {
+  color: white !important;
+  font-weight: 700;
+}
+.ante-btn{
+		background-color: white;
+	color: maroon;
+	margin-top: 15px;
+	margin-left: 90px;
+    padding: 8px 30px;
+	border: none;
+	border-radius: 20px;
+}
+.ante-btn:hover{
+	background-color:#303539;
+	color: white;
+	transition: 0.4s ease-in-out;
+}
+/* Blandit Section */
+.blandit{
+	height: 750px;
+}
+.pizzaa h2{
+	color: #1A1929;
+	margin-bottom: 5px;
+}
+.pizzaa p{
+	color: #1A1929;
+}
+.pizzaa-btn{
+	background-color: #DE4B2A;
+	color: white;
+	margin-top: 15px;
+	margin-left: 90px;
+    padding: 8px 30px;
+	border: none;
+	border-radius: 20px;
+	cursor: pointer;
+}
+.pizzaa-btn:hover{
+	background-color: #303841;
+	transition: 0.3s ease-in-out;
+}
+.col-md-6.mx-auto.pizza{
+	margin-right: -100px !important;
+    margin-bottom: 80px;
+}
+.pizza img{
+	max-width: 100%;
+	height: auto;
+}
+.chicken h2{
+	color: #1A1929;
+	margin-bottom: 5px;
+}
+.chicken p{
+	color: #1A1929;
+}
+.chicken-btn{
+	background-color: #303841;
+	color: white;
+	margin-top: 15px;
+	margin-left: 90px;
+    padding: 8px 30px;
+	border: none;
+	border-radius: 20px;
+	cursor: pointer;
+
+}
+.chicken-btn:hover{
+	background-color: #DE4B2A;
+	transition: 0.3s ease-in-out;
+}
+.col-md-6.mx-auto.chicken.wrap {
+    margin-right: -100px !important;
+    margin-bottom: 80px;
+}
+.chicken.wrap img{
+	max-width: 100%;
+	height: auto;
+	margin-right: 52px !important;
+}
+/* Placerat Section */
+.placerat{
+	height: 400px;
+	background-color: #D65D0E;
+}
+.abc p{
+	color: white;
+	padding: 5px 132px;
+}
+/* Footer Section */
+.panakia{
+	background: url(../img/banner2.jpg)no-repeat;
+	background-size: cover;
+	height: 400px;
+}
+.panakia h6{
+	color: white;
+	text-align: center;
+	padding-top: 85px;
+	font-weight: 300;
+}
+.panakia p{
+	color: white;
+	text-align: center;
+	padding-top: px;
+}
+.panakia p span{
+	color: white;
+	text-align: center;
+	font-weight: 700;
+}
+
+/*Responsive Breakpoints*/ 
+
+/*Mobile device*/
+@media (min-width: 320px) and (max-width: 576px){
+.hero {
+    height: 1800px;
+    background-position: center;
+}
+.hero-content h1 {
+    margin-top: 252px;
+}
+img.img-fluid {
+    margin-left: 135px;
+}
+.hero-btn {
+    margin-top: 30px;
+    margin-left: 150px;
+}
+.Facilisis {
+    height: 1800px;
+}
+.burger3 img {
+    margin-left: 20px;
+
+}
+.cupcake2 img {
+    margin-left: 20px;
+
+}
+.burger2 img {
+    margin-left: 20px;
+
+}
+.news-btn {
+    margin-left: 150px;
+}
+.row {
+    margin-right: 0px !important; 
+    margin-left: 0px !important; 
+}
+.form-control {
+     margin-left: 0px !important;
+}
+.ante-btn {
+    margin-left: 150px;
+}
+.blandit {
+    height: 1200px;
+}
+.col-md-6.mx-auto.pizza {
+    margin-right:0px !important;
+}
+.pizza img {
+    margin-top: 10px;
+    margin-left: 70px;
+}
+.pizzaa-btn {
+    margin-left: 150px;
+}
+.col-md-6.mx-auto.chicken.wrap {
+    margin-right: 0px !important;
+}
+.chicken-btn {
+    margin-left: 150px;
+}
+.chicken.wrap img {
+    margin-right: 0px !important;
+    margin-left: 90px;
+    margin-top: 35px;
+}
+.placerat {
+    height: 450px;
+}
+.abc p {
+    padding: 10px 78px;
+}
+
+}
+/*Small & tab device*/
+@media (min-width: 576.01px) and (max-width: 768px){
+.hero {
+    height: 1500px;
+    background-position: top center;
+}
+img.img-fluid {
+    margin-left: 180px;
+}
+.hero-btn {
+    margin-left: 180px;
+    margin-top: 20px;
+}
+.Facilisis {
+    height: 1700px;
+}
+.burger3 img {
+    margin-left: 70px;
+
+}
+.cupcake2 img {
+    margin-left: 70px;
+
+}
+.burger2 img {
+    margin-left: 70px;
+
+}
+.news-btn {
+    margin-left: 200px;
+}
+.form-control {
+    margin-left: 10px !important;
+}
+.ante-btn {
+    margin-left: 200px;
+}
+.blandit {
+    height: 1200px;
+}
+.pizzaa h2 {
+    text-align: center;
+}
+.pizzaa p {
+    text-align: center;
+}
+.pizzaa-btn {
+    margin-left: 185px;
+    margin-bottom: 5px;
+}
+.col-md-6.mx-auto.pizza {
+	margin-right: 0px !important;
+}
+.pizza img {
+    margin-left: 100px;
+}
+.chicken h2 {
+    text-align: center;
+}
+.chicken p {
+    text-align: center;
+}
+.chicken-btn {
+    margin-left: 185px;
+    margin-bottom: 15px;
+}
+.col-md-6.mx-auto.chicken.wrap {
+    margin-right: 0px !important;
+}
+.chicken.wrap img {
+    margin-left: 130px;
+    margin-top: 20px;
+}
+.placerat {
+    height: 550px;
+}
+.abc p {
+    padding: 3px 190px;
+}
+.panakia h6 {
+    padding-top: 60px;
+}
+.row {
+	margin-right: 0px !important;
+}
+}
+
+/*Notebook & laptop device*/
+@media (min-width: 768.01px) and (max-width: 992px){
+img.img-fluid {
+    margin-left: 32px;
+    margin-top: 45px;
+}
+.hero-content h1 {
+    margin-top: 100px;
+}
+.hero-btn {
+    margin-left: 260px;
+}
+.news-btn {
+    margin-left: 45px;
+}
+.ante-btn {
+    margin-left: 65px;
+}
+.form-control {
+    margin-left: 135px !important;
+}
+.col-md-6.mx-auto.pizza {
+    margin-right: -15px !important;
+}
+.col-md-6.mx-auto.chicken.wrap {
+    margin-right: -15px !important;
+}
+.pizzaa-btn {
+     margin-top: 0px; 
+    margin-bottom: 10px;
+}
+.abc p {
+    padding: 5px 45px;
+}
+}
+/*Medium device*/
+@media (min-width: 992.01px) and (max-width: 1200px){
+img.img-fluid {
+    margin-left: 80px;
+}
+.hero-btn { 
+    margin-left: 390px;
+}
+.news-btn {
+    margin-left: 75px;
+}
+.Facilisis-content h2 {
+    margin-left: 0px;
+}
+.ante h2 {
+    margin-left: 0px;
+}
+.ante p {
+    margin-left: 0px;
+}
+.col-md-6.mx-auto.pizza{
+	margin-right: 0px !important;
+}
+.col-md-6.mx-auto.chicken.wrap {
+    margin-right: 0px !important;
+}
+.row {
+	margin-right: 0px !important;
+}
+}
+
+/*Large device*/
+@media (min-width: 1200px){
+
+}
